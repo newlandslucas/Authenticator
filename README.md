@@ -15,7 +15,7 @@
 
 ## Prints
 
-<image src="Images/p1.png" height="600" width="300"> <img src="/AuthenticatorDemo/Images/p2.png" height="600" width="300">
+<image src="/AuthenticatorDemo/p1.png" height="600" width="300"> <img src="/AuthenticatorDemo/p2.png" height="600" width="300">
 
 
 ## Author
