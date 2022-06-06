@@ -16,6 +16,8 @@
 		A428575B284A906F005674B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428575A284A906F005674B3 /* LoginView.swift */; };
 		A428575D284A9171005674B3 /* AthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428575C284A9171005674B3 /* AthenticationManager.swift */; };
 		A455C5E6284E983E005FBBE7 /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455C5E5284E983E005FBBE7 /* CredentialsLoginView.swift */; };
+		A455C5EA284EB09C005FBBE7 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = A455C5E8284EB09C005FBBE7 /* p1.png */; };
+		A455C5EB284EB09C005FBBE7 /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = A455C5E9284EB09C005FBBE7 /* p2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A428575C284A9171005674B3 /* AthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenticationManager.swift; sourceTree = "<group>"; };
 		A428575E284AA70B005674B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A455C5E5284E983E005FBBE7 /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
+		A455C5E8284EB09C005FBBE7 /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p1.png; path = ../../../../Desktop/p1.png; sourceTree = "<group>"; };
+		A455C5E9284EB09C005FBBE7 /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p2.png; path = ../../../../Desktop/p2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		A4285745284A8E91005674B3 /* AuthenticatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A455C5E7284EB06D005FBBE7 /* Images */,
 				A428575E284AA70B005674B3 /* Info.plist */,
 				A4285759284A905F005674B3 /* Views */,
 				A4285754284A8F17005674B3 /* Components */,
@@ -98,6 +103,15 @@
 				A455C5E5284E983E005FBBE7 /* CredentialsLoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A455C5E7284EB06D005FBBE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A455C5E8284EB09C005FBBE7 /* p1.png */,
+				A455C5E9284EB09C005FBBE7 /* p2.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A428574E284A8E93005674B3 /* Preview Assets.xcassets in Resources */,
+				A455C5EA284EB09C005FBBE7 /* p1.png in Resources */,
 				A428574B284A8E93005674B3 /* Assets.xcassets in Resources */,
+				A455C5EB284EB09C005FBBE7 /* p2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
