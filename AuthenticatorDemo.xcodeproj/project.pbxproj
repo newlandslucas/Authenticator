@@ -14,6 +14,7 @@
 		A4285756284A8F26005674B3 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4285755284A8F26005674B3 /* Title.swift */; };
 		A4285758284A8FA0005674B3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4285757284A8FA0005674B3 /* PrimaryButton.swift */; };
 		A428575B284A906F005674B3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428575A284A906F005674B3 /* LoginView.swift */; };
+		A428575D284A9171005674B3 /* AthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428575C284A9171005674B3 /* AthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		A4285755284A8F26005674B3 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		A4285757284A8FA0005674B3 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		A428575A284A906F005674B3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A428575C284A9171005674B3 /* AthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenticationManager.swift; sourceTree = "<group>"; };
+		A428575E284AA70B005674B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +60,13 @@
 		A4285745284A8E91005674B3 /* AuthenticatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A428575E284AA70B005674B3 /* Info.plist */,
 				A4285759284A905F005674B3 /* Views */,
 				A4285754284A8F17005674B3 /* Components */,
 				A4285746284A8E91005674B3 /* AuthenticatorDemoApp.swift */,
 				A428574A284A8E93005674B3 /* Assets.xcassets */,
 				A428574C284A8E93005674B3 /* Preview Content */,
+				A428575C284A9171005674B3 /* AthenticationManager.swift */,
 			);
 			path = AuthenticatorDemo;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4285749284A8E91005674B3 /* ContentView.swift in Sources */,
+				A428575D284A9171005674B3 /* AthenticationManager.swift in Sources */,
 				A4285756284A8F26005674B3 /* Title.swift in Sources */,
 				A4285758284A8FA0005674B3 /* PrimaryButton.swift in Sources */,
 				A428575B284A906F005674B3 /* LoginView.swift in Sources */,
@@ -297,6 +303,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AuthenticatorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthenticatorDemo/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = 6.0;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +333,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AuthenticatorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthenticatorDemo/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = 6.0;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
